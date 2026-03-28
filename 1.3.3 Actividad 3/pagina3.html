@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Página 3 - Laboratorio 6</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Laboratorio 6</a>
+    <div class="collapse navbar-collapse">
+    <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="pagina1.html">Página 1</a></li>
+        <li class="nav-item"><a class="nav-link" href="pagina2.html">Página 2</a></li>
+        <li class="nav-item"><a class="nav-link active" href="pagina3.html">Página 3</a></li>
+    </ul>
+    </div>
+</div>
+</nav>
+<div class="container mt-4">
+    <h1>Página 3 - Contacto</h1>
+    <p>Esta página tiene un formulario con Bootstrap.</p>
+    <form>
+        <div class="mb-3">
+        <label class="form-label">Nombre</label>
+        <input type="text" class="form-control" placeholder="Tu nombre">
+        </div>
+            <div class="mb-3">
+            <label class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" placeholder="correo@ejemplo.com">
+            </div>
+        <div class="mb-3">
+        <label class="form-label">Mensaje</label>
+        <textarea class="form-control" rows="3"></textarea>
+        </div>
+    <button class="btn btn-success">Enviar</button>
+    </form>
+    <a href="index.html" class="btn btn-primary mt-3">Volver al inicio</a>
+	<div class="mt-5 mb-5">
+    <hr>
+    <div class="row align-items-center mt-4">
+        <!-- Imágenes de Contacto (Redes/Soporte) -->
+        <div class="col-md-6">
+            <div class="d-flex justify-content-around mb-4">
+                <img src="img/support1.jpeg" alt="Soporte 1" class="rounded-circle shadow" style="width: 80px; height: 80px; object-fit: cover;">
+                <img src="img/support2.jpeg" alt="Soporte 2" class="rounded-circle shadow" style="width: 80px; height: 80px; object-fit: cover;">
+                <img src="img/support3.jpeg" alt="Soporte 3" class="rounded-circle shadow" style="width: 80px; height: 80px; object-fit: cover;">
+            </div>
+            
+            <!-- Los 3 Párrafos solicitados -->
+            <div class="ps-3 border-start border-4 border-success">
+                <p><strong>Compromiso de Respuesta:</strong> Nuestro equipo técnico se esfuerza por responder todas las solicitudes de contacto en un plazo menor a 24 horas hábiles. Valoramos tu tiempo y nos aseguramos de que cada duda sobre el Laboratorio 6 sea resuelta con precisión y claridad pedagógica.</p>
+                <p><strong>Soporte Personalizado:</strong> Si experimentas problemas con la visualización de los componentes de Bootstrap o la navegación entre páginas, no dudes en adjuntar una captura de pantalla. Estamos aquí para ayudarte a que tu experiencia de aprendizaje en Programación Web sea fluida y sin contratiempos técnicos.</p>
+                <p><strong>Comunidad y Feedback:</strong> Este formulario no es solo para errores; también recibimos sugerencias para mejorar el contenido de nuestras prácticas. Tu opinión como usuario es fundamental para seguir evolucionando y ofreciendo herramientas tecnológicas de vanguardia en cada unidad académica.</p>
+            </div>
+        </div>
+
+        <!-- Segundo Componente Bootstrap: Accordion (Preguntas Frecuentes) -->
+        <div class="col-md-6">
+            <h4 class="mb-3">Preguntas Frecuentes</h4>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                            ¿Cómo reportar un error?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Simplemente llena el formulario superior con tu correo institucional y una descripción detallada del inconveniente.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                            ¿Qué tecnologías usamos?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Este sitio utiliza HTML5 puro, CSS3 y el framework <strong>Bootstrap 5.3</strong> para garantizar un diseño responsivo.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>© 2025 Laboratorio 6 - Página 3</p>
+    </footer>
+    </body>
+</html>
